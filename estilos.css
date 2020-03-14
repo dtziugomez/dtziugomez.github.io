@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background: #f2f2f2;
+    background: transparent;
 }
 
 *{
@@ -58,8 +58,8 @@ body{
     width: 100%;
     display: flex;
 }
-.pacifico{
-    font-family: 'Pacifico', cursive;
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
 }
 @media screen  and (max-width:900px){
     .contenido-slider > img{
@@ -82,4 +82,11 @@ body{
     .contenido-slider h2{
         font-size: 22px;
     }
+}
+header{
+    background-color: transparent;
+    
+}
+footer{
+    background-color: transparent;
 }
